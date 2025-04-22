@@ -772,6 +772,9 @@ footer {
   .section1-grid {
   grid-template-columns: 1fr;
 }
+.times1{
+  gap: 10px;
+}
  .background-clip{
    display: none;
   }
