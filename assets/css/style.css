@@ -302,12 +302,13 @@ header.scrolled nav .time {
 .cards {
   padding-top: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
+  gap: 20px;
 }
 .card {
   width: 300px;
-  height: 400px;
+  height: 430px;
   background-color: rgba(255, 255, 255, 0.171);
   overflow: hidden;
   position: relative;
@@ -760,35 +761,35 @@ footer {
   color: var(--dark-blue-color);
   text-decoration: none;
 }
-.res-ved{
+.res-ved {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
- .section-1-img{
+.section-1-img {
   display: none;
- }
+}
 @media (max-width: 575px) {
   .section1-grid {
-  grid-template-columns: 1fr;
-}
-.times1{
-  gap: 10px;
-}
- .background-clip{
-   display: none;
+    grid-template-columns: 1fr;
   }
- .section-1-img{
-  display: block;
- }
+  .times1 {
+    gap: 10px;
+  }
+  .background-clip {
+    display: none;
+  }
+  .section-1-img {
+    display: block;
+  }
 
   .container {
     padding: 20px;
   }
-  .profile-cards{
+  .profile-cards {
     padding: 0px;
   }
-  .faq-container{
+  .faq-container {
     padding: 0px;
   }
   header {
@@ -884,8 +885,8 @@ footer {
   .section5 h2 {
     font-size: 22px;
   }
-  .btn{
-    padding:10px 20px;
+  .btn {
+    padding: 10px 20px;
   }
   .section7 {
     height: 100%;
@@ -960,15 +961,15 @@ footer {
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-    .section1-grid {
-  grid-template-columns: 1fr;
-}
- .background-clip{
-   display: none;
+  .section1-grid {
+    grid-template-columns: 1fr;
   }
- .section-1-img{
-  display: block;
- }
+  .background-clip {
+    display: none;
+  }
+  .section-1-img {
+    display: block;
+  }
   .container {
     padding: 20px;
   }
@@ -1138,7 +1139,6 @@ footer {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-
   .container {
     padding: 50px;
   }
