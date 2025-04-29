@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 
 :root {
-  --baloo-font-family: "Baloo 2", sans-serif;
+  --baloo-font-family: "Figtree", sans-serif;
 
   /* color */
   --black-color: #000;
@@ -111,11 +111,13 @@ header.scrolled nav .time {
   font-size: 42px;
   color: var(--yellow-orange-color);
   line-height: 40px;
+  margin-bottom: 20px;
 }
 .text-container h1 {
   font-size: 52px;
   color: var(--white-color);
   line-height: 1;
+  margin-bottom: 20px;
 }
 .text-container p {
   font-size: 25px;
