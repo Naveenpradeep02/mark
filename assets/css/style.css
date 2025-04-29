@@ -757,6 +757,7 @@ footer {
   display: none;
   padding: 20px;
   color: var(--black-color);
+  font-weight: 600;
 }
 .active .answer {
   display: block;
@@ -769,6 +770,7 @@ footer {
   text-align: center;
   font-family: sans-serif;
   border-top: 1px solid var(--dark-blue-color);
+  cursor: pointer;
 }
 .copy-rights h3 a {
   color: var(--dark-blue-color);
