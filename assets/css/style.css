@@ -18,7 +18,7 @@
   --dark-blue-color: #000000;
   /* --yellow-orange-color: #ffc403; */
   --yellow-orange-color: #4dabf7;
-  --yellow-orange-color: rgb(69, 69, 253);
+  /* --yellow-orange-color: rgb(69, 69, 253); */
 }
 * {
   margin: 0;
@@ -647,7 +647,7 @@ h3.side-line {
 }
 .key-points ul li {
   list-style: none;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .section10-text h3 {
@@ -683,7 +683,7 @@ h3.side-line {
   font-size: 18px;
   color: var(--white-color);
 }
-.section11-top h3 {
+. .section11-top h3 {
   font-size: 32px;
   color: var(--yellow-orange-color);
 }
