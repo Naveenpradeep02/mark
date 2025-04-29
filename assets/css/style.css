@@ -225,7 +225,7 @@ header.scrolled nav .time {
 }
 .times1 {
   display: flex;
-  padding: 50px 100px;
+  padding: 50px;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -234,7 +234,7 @@ header.scrolled nav .time {
 }
 
 .grid-section {
-  padding-top: 400px;
+  padding-top: 250px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -324,8 +324,9 @@ header.scrolled nav .time {
   height: 100%;
   position: absolute;
   z-index: 0;
-  background-color: transparent;
-  transform: translateY(-400px);
+  background-color: rgba(0, 0, 0, 0.426);
+  transform: translateY(0px);
+  border: 2px solid var(--white-color);
   transition: all 0.4s ease-in-out;
 }
 .card:hover .card-overlay {
@@ -683,7 +684,7 @@ h3.side-line {
   font-size: 18px;
   color: var(--white-color);
 }
-. .section11-top h3 {
+.section11-top h3 {
   font-size: 32px;
   color: var(--yellow-orange-color);
 }
@@ -794,7 +795,8 @@ footer {
     grid-template-columns: 1fr;
   }
   .times1 {
-    gap: 10px;
+    gap: 20px;
+    padding: 30px;
   }
   .background-clip {
     display: none;
@@ -848,7 +850,7 @@ footer {
   }
   .section2 .grid-section {
     padding: 0;
-    padding-top: 200px;
+    padding-top: 70px;
     grid-template-columns: 1fr;
   }
   .grid-section h2 {
@@ -1026,6 +1028,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px;
   }
   .section2 .grid-section {
     padding: 0;
