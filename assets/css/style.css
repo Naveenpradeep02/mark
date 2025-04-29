@@ -465,7 +465,7 @@ h3.side-line {
   gap: 20px;
 }
 .sp-det p {
-  color: var(--yellow-orange-color);
+  color: red;
   font-weight: 800;
 }
 .section4 {
