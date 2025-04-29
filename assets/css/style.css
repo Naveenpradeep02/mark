@@ -458,6 +458,10 @@ h3.side-line {
   padding-top: 0;
   padding: 20px;
 }
+.sp-det p {
+  color: var(--yellow-orange-color);
+  font-weight: 800;
+}
 .section4 {
   background: url(../images/pattern-1.jpg) no-repeat;
   background-position: center;
