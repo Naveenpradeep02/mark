@@ -110,9 +110,10 @@ header.scrolled nav .time {
 .text-container h2 {
   font-size: 42px;
   color: var(--yellow-orange-color);
+  line-height: 40px;
 }
 .text-container h1 {
-  font-size: 72px;
+  font-size: 52px;
   color: var(--white-color);
   line-height: 1;
 }
@@ -121,6 +122,7 @@ header.scrolled nav .time {
   color: var(--white-color);
   margin-top: 10px;
   margin-bottom: 40px;
+  line-height: 30px;
 }
 .btn {
   background-color: var(--yellow-orange-color);
