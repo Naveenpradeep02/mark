@@ -268,7 +268,7 @@ header.scrolled nav .time {
   font-size: 56px;
 }
 .brite {
-  color: rgb(74, 74, 240);
+  color: #223772;
 }
 .text-section p {
   font-size: 18px;
@@ -662,7 +662,7 @@ h3.side-line {
 }
 .key-points ul li {
   list-style: none;
-  font-weight: 800;
+  /* font-weight: 800; */
 }
 
 .section10-text h3 {
